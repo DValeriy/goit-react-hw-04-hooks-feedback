@@ -57,15 +57,5 @@ class App extends Component {
     );
   }
 }
-App.propTypes = {
-  markObj: PropTypes.shape(
-    PropTypes.arrayOf(
-      PropTypes.shape({
-        mark: PropTypes.string.isRequired,
-        id: PropTypes.number.isRequired,
-      }).isRequired
-    ).isRequired
-  ).isRequired,
-};
 
 export default App;
