@@ -1,0 +1,9 @@
+.list {
+  margin: 30px;
+}
+.item {
+  display: flex;
+}
+.item span {
+  margin-right: 20px;
+}
